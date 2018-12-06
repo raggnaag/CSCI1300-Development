@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+// boat component, prints out the boat, image and price
 class Boats extends Component {
   render() {
     return (
