@@ -14,5 +14,4 @@ class Boats extends Component {
     );
   }
 }
-  // skip this line if using Create React Native App
 export default Boats;
