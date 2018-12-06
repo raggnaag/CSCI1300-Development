@@ -22,34 +22,31 @@ class FilteredList extends Component {
     this.setState({search: event.target.value.trim().toLowerCase()});
   }
 
-  //TODO (FilteredList): Set the state of the "type" state variable depending on what is passed in
+  // This is the FilteredList variable: It sets the state of the "type" state variable depending on what is passed in
   onFilter = (event) => {
     this.setState({type: event}) //to be able to call in MenuItem aventKey
   }
-
+  
   onPrice = (event) => {
     this.setState({price: event}) //to be able to call in MenuItem aventKey
   }
 
-  //TODO (FilteredList): sEARCH IS A FUNCTION Change filterItem to take into account the "type" state variable when filtering
+  //This is the FilteredList : it filters an Item and take into account the "type" state variable when filtering
   filterItem = (item) => {
       return ((item.name.toLowerCase().search(this.state.search) !== -1) &&
       ((item.type.search(this.state.type)) !== -1));
       console.log("FILTERING")
   }
-
+  //reset button for sorting
   reset = (event) => {
     this.setState({sort:"no"})
   }
-
+  //sortItem to set the state whether it is sorted or not 
   sortItem = () => {
-    // this.props.items.sort(function(a,b) {return b.price - a.price});
     this.setState({sort: "yes"})
   }
 
   render(){
-    /*var filter = this.props.items.filter(this.filterItem);*/
-    /*var sort = this.props.items.filter(this.sortItem);*/
     return (
       <div className="filter-list">
         <h1>Boats</h1>
