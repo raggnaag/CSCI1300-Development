@@ -18,8 +18,11 @@ In your browser, go to http://localhost:3000/ to see the App.
 
 About:
 This is an application to buy boats online.
-In particular you can buy, motorboats and sailboats.The interface
-relates to design principles in class because it uses the grid system/
+In particular you can buy, motorboats and sailboats online, used and new.
+The goal of this App is to make it easier to buy boats, browse other boats,
+and compare different types and models.
+
+The interface relates to design principles in class because it uses the grid system/
 flex box system we have discussed in class. The grid is responsive and "flexes:
 based on browser size. In addition I am using a universal typeface, it enforces one 
 design -> same font, text and color scheme throughout the app.
