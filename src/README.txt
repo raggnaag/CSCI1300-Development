@@ -10,6 +10,7 @@ If you do not have react app already downloaded.
 
 Then we can begin.
 
+Download the code
 cd into the directory: cd my-app
 And then run npm start
 
