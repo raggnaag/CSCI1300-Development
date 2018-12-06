@@ -11,7 +11,7 @@ If you do not have react app already downloaded.
 Then we can begin.
 
 Download the code
-cd into the directory: cd my-app
+cd into the directory where the code is (example): cd my-app
 And then run npm start
 
 In your browser, go to http://localhost:3000/ to see the App.
