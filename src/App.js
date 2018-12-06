@@ -18,7 +18,7 @@ import Jetski from './Images/Jetski.jpg'
 
 
 
-//TODO (FilteredList): create a produce list using the 'const' variable keyword
+// create a boat list using the 'const' variable keyword
 const boats = [
 	{name: "Contender", type: "Motorboats", price:"45.000", url: Contender},
 	{name: "Intrepid", type: "Motorboats", price:"32.500", url: Intrepid},
@@ -35,18 +35,10 @@ const boats = [
 
 	];
 
-	// const produceInstance = (
-	//   <Grid>
-	//     <Row className="show-grid">
-	//       <Col sm={6} md={3}></Col>
-	// 		</Row>
-	// 	</Grid>
-	// );
-	//
 class App extends Component {
     render() {
         return (
-			<div className="App">
+	<div className="App">
           <HelloWorld name={''}/>
           <FilteredList items={boats}/>
       </div>
