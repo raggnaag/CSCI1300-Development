@@ -4,6 +4,7 @@ import Boats from './Boats'
 class List extends Component {
   renderList() {
     var items = ""
+    // This sorts depending on the state of the button, if yes, then button is clicked
     if (this.props.sort === "yes") {
       items = this.props.items.sort((a,b) => b.price - a.price).map(item => {
         return <li key={item.name}><Boats item = {item}/> </li>
